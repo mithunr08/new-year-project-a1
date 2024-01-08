@@ -87,3 +87,10 @@
 .joining-details{
     /* border:1px solid ; */
 }
+
+
+/* footer styles */
+footer{
+    color:whitesmoke;
+    font-weight: 500px;
+}
