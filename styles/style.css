@@ -42,7 +42,48 @@
   color: tomato;
 }
 .discount-category {
-  color: #070211;
+  color: #5c4095;
   font-size: 44px;
   font-weight: 700;
+  line-height: 0px;
+}
+.new-year-pic {
+  padding-bottom: 100px;
+}
+.party-section {
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("..//images/Vectorrr.png");
+  width: 1320px;
+  height: 600px;
+  background-repeat: no-repeat;
+  position: absolute;
+  border-radius: 11px;
+}
+.party-section {
+  display: flex;
+}
+
+.party-text-title {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 80px;
+}
+.party-description {
+  color: rgba(255, 255, 255, 0.8);
+}
+.btn {
+  color: white;
+  background-color: rgba(167, 111, 33, 0.843);
+  text-align: center;
+  margin-left: 2px;
+  font-size: 13px;
+  font-weight: 700;
+}
+.party-pic{
+    padding-top: 6%;
+    padding-left: 1%;
+}
+.joining-details{
+    /* border:1px solid ; */
 }
