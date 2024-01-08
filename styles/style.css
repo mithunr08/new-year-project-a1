@@ -1,7 +1,9 @@
+/* shared styles */
 * {
   padding: 0 47px;
   font-family: "Merriweather", serif;
 }
+/* banner styles*/
 .banner-head {
   color: #fff;
   text-align: center;
@@ -14,8 +16,33 @@
 }
 .banner-head-title {
   text-align: center;
-  padding: 260px 500px 0;
+  /* padding: 260px 500px 0; */
+  padding-top: 170px;
+  padding-bottom: -150px;
+  font-size: 28px;
 }
 .banner-head-title-description {
   font-weight: 900;
+  font-size: 58px;
+}
+/* section styles */
+.section-container {
+  margin: 0 170px;
+}
+.discount-details {
+  text-align: center;
+}
+.discount-title {
+  font-size: 70px;
+  font-weight: 700;
+  color: red;
+}
+.discount-description {
+  font-weight: 500;
+  color: tomato;
+}
+.discount-category {
+  color: #070211;
+  font-size: 44px;
+  font-weight: 700;
 }
