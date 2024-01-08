@@ -162,6 +162,22 @@
   border-radius: 5px;
   font-size: small;
 }
+.foter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.foter-left {
+  padding-left: 0px;
+}
+.foter-right ul li a {
+  text-decoration: none;
+  color: cornsilk;
+  margin: 0px -45px;
+}
+.foter-right ul li img {
+  margin: 0px -45px;
+}
 .icon-container {
   padding: 26px 0px;
 }
@@ -171,7 +187,7 @@
   align-items: center;
 }
 .icon-container ul li {
-  margin: 0px -130px;
+  margin: 0px -135px;
 }
 .icon-container ul li img {
   width: 40px;
