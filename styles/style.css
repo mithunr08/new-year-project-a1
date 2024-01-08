@@ -86,31 +86,35 @@
   padding-top: 6%;
   padding-left: 1%;
 }
-.joining-details{
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    text-align: center;
-    margin-left: 15px;
-    margin-top: 40px;
-width: 1200px;
-height:350px;
+.joining-details {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 40px;
+  width: 1200px;
+  height: 350px;
 }
-.join-div{
-  padding-top: 50px;  
+.join-div {
+  padding-top: 50px;
 }
-.joining-details p{
- padding: 40px 0px;
+.joining-details p {
+  padding: 40px 0px;
 }
-.joining-details span{
-    color: red;
-    padding: 10px;
+.joining-details span {
+  color: red;
+  padding: 10px;
 }
-.btn-join{
-    padding: 10px 30px;
-    margin-bottom: 100px;
-    color: white;
-    background-color: rgb(244, 4, 4);
-    border: none;
-    border-radius: 6px;
+.btn-join {
+  padding: 10px 30px;
+  margin-bottom: 100px;
+  color: white;
+  background-color: rgb(244, 4, 4);
+  border: none;
+  border-radius: 6px;
 }
 
 .newsleter {
@@ -120,31 +124,31 @@ height:350px;
   margin-left: 20px;
   margin-top: 40px;
   width: 1180px;
-  padding-bottom: 50px; 
+  padding-bottom: 50px;
 }
-.newsleter > img{
-    padding-top: 80px;
+.newsleter > img {
+  padding-top: 80px;
 }
 .newsleter-title {
   color: #070211;
   font-size: 48px;
   font-weight: 700;
 }
-.newsleter-description{
-    color: rgba(7, 2, 17, 0.60);
+.newsleter-description {
+  color: rgba(7, 2, 17, 0.6);
 }
-.user-mail{
-    background-color:rgb(252, 253, 255);
-    padding:10px 30px;
-    border: none;
+.user-mail {
+  background-color: rgb(252, 253, 255);
+  padding: 10px 30px;
+  border: none;
 }
-.btn-sub{
-    font-weight: 600px;
-    padding:10px 30px;
-    color:white;
-    background-color: red;
-    border: none;
- border-radius:0px 25px 25px 0px;
+.btn-sub {
+  font-weight: 600px;
+  padding: 10px 30px;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 0px 25px 25px 0px;
 }
 
 /* footer styles */
@@ -157,6 +161,21 @@ height:350px;
   width: 1250px;
   border-radius: 5px;
   font-size: small;
+}
+.icon-container {
+  padding: 26px 0px;
+}
+.icon-container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-container ul li {
+  margin: 0px -130px;
+}
+.icon-container ul li img {
+  width: 40px;
+  height: 40px;
 }
 .last-line {
   display: flex;
