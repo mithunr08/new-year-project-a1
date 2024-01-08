@@ -56,7 +56,7 @@
   width: 1320px;
   height: 600px;
   background-repeat: no-repeat;
-  position: absolute;
+
   border-radius: 11px;
 }
 .party-section {
@@ -80,17 +80,26 @@
   font-size: 13px;
   font-weight: 700;
 }
-.party-pic{
-    padding-top: 6%;
-    padding-left: 1%;
+.party-pic {
+  padding-top: 6%;
+  padding-left: 1%;
 }
-.joining-details{
-    /* border:1px solid ; */
+.joining-details {
+  /* border:1px solid ; */
 }
-
 
 /* footer styles */
-footer{
-    color:whitesmoke;
-    font-weight: 500px;
+.developer-details{
+  color: whitesmoke;
+  font-weight: 400px;
+  background-color: #1b1a1c;
+  margin-top: 50px;
+  margin-left: 35px;
+  width: 1250px;
+  border-radius: 5px;
+font-size: small;
 }
+.last-line{
+    display: flex;
+    justify-content: space-between;
+} 
