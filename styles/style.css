@@ -128,6 +128,9 @@
   align-items: center;
   padding: 0px;
 }
+.offers{
+  margin-left: -20px;
+}
 .offer1 h5 {
   color: rgb(195, 2, 2);
   /* padding: 0px; */
@@ -278,4 +281,7 @@
 .last-line {
   display: flex;
   justify-content: space-between;
+}
+#margin{
+  margin-left: 0px;
 }
